@@ -1,3 +1,5 @@
+[정리글 링크 바로가기](https://velog.io/@taetae-5/TDD%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%A3%BC%EB%8F%84-%EA%B0%9C%EB%B0%9C%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC)
+
 ## TDD(Test Driven Development)란?
 
 - 테스트 주도 개발은 개발방식 중 하나로 테스트 코드를 먼저 작성하고, 그 테스트를 통과시킬 수 있는 최소한의 코드로 개발을 진행하는 것을 말한다.
@@ -175,7 +177,7 @@ test("it should not allow a negative number when the initial value is 0 and remo
 });
 ```
 
-## 9. 초기값이 2일때, remove 버튼 네 번 클릭시 0 출력 테스트
+### 9. 초기값이 2일때, remove 버튼 네 번 클릭시 0 출력 테스트
 
 - **초깃값** : `2`
 - **결과** : `0`
