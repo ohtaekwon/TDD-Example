@@ -77,7 +77,7 @@ test("it should have the correct initial value add is clicked twice", () => {
  * 테스트 : 통과
  */
 
-test("it should have the correct initial value remove is clicked once", async () => {
+test("it should have the correct initial value remove is clicked once", () => {
   render(<AwesomeCounter initialValue={5} />);
   const removeButton = screen.getByText("Remove");
   fireEvent.click(removeButton);
@@ -92,7 +92,7 @@ test("it should have the correct initial value remove is clicked once", async ()
  * 테스트 : 통과
  */
 
-test("it should have the correct initial value remove is clicked twice", async () => {
+test("it should have the correct initial value remove is clicked twice", () => {
   render(<AwesomeCounter initialValue={5} />);
   const removeButton = screen.getByText("Remove");
   fireEvent.click(removeButton);
@@ -108,7 +108,7 @@ test("it should have the correct initial value remove is clicked twice", async (
  * 테스트 : 통과
  */
 
-test("it should not allow a negative number when the initial value is 0 and remove is clicked", async () => {
+test("it should not allow a negative number when the initial value is 0 and remove is clicked", () => {
   render(<AwesomeCounter initialValue={0} />);
   const removeButton = screen.getByText("Remove");
   fireEvent.click(removeButton);
@@ -123,7 +123,7 @@ test("it should not allow a negative number when the initial value is 0 and remo
  * 테스트 : 통과
  */
 
-test("it should not allow a negative number when the initial value is 0 and remove is clicked", async () => {
+test("it should not allow a negative number when the initial value is 0 and remove is clicked", () => {
   render(<AwesomeCounter initialValue={2} />);
   const removeButton = screen.getByText("Remove");
   fireEvent.click(removeButton);
