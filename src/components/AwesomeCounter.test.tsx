@@ -26,11 +26,17 @@ test("it should have the correct initial value when of 0", () => {
   expect(count).toBeInTheDocument();
 });
 
+/**
+ * 초깃값이 0일때, add 버튼 클릭 시 1 출력 테스트
+ * 초깃값 : 0
+ * 결과 : 1
+ * 테스트 : 통과
+ */
 test("it should increment the count by 1 when the add button is clicked", () => {
   render(<AwesomeCounter initialValue={0} />);
   const addButton = screen.getByText("Add");
-  const count = screen.getByText(0);
   fireEvent.click(addButton);
+  const count = screen.getByText(1);
   expect(count).toBeVisible();
 });
 
@@ -78,6 +84,7 @@ test("it should have the correct initial value remove is clicked once", async ()
   const count = screen.queryByText(4);
   expect(count).toBeVisible();
 });
+
 /**
  * 초기값이 5일때, remove 버튼 두 번 클릭시 3 출력 테스트
  * 초깃값 : 5
