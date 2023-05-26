@@ -2,8 +2,6 @@
 
 [정리글 링크 바로가기](https://velog.io/@taetae-5/TDD%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%A3%BC%EB%8F%84-%EA%B0%9C%EB%B0%9C%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC)
 
----
-
 ### 자동화 테스트 실행
 
 ```bash
