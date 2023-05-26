@@ -1,12 +1,12 @@
 import React from "react";
 
 import "./App.css";
-import AwesomeCounter from "./components/AwesomeCounter";
+import LoginForm from "./components/LoginForm";
 
 function App() {
   return (
     <div>
-      <AwesomeCounter />
+      <LoginForm />
     </div>
   );
 }
